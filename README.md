@@ -35,7 +35,7 @@ Revenant is a lightweight Roblox Lua GUI library designed for game exploits/scri
 
 ## **Installation**
    ```lua
-   local Revenant = loadstring(game:HttpGet("https://raw.githubusercontent.com/randomquery16/glowing-umbrella/refs/heads/main/Revenant.txt"))()
+   local Revenant = loadstring(game:HttpGet("https://raw.githubusercontent.com/randomquery16/glowing-umbrella/refs/heads/main/revenant-source.lua"))()
    ```
 
 ---
