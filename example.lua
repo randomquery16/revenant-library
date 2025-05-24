@@ -1,4 +1,4 @@
-local Revenant = require(game:GetService("ReplicatedStorage").Revenant)
+local Revenant = loadstring(game:HttpGet("https://raw.githubusercontent.com/randomquery16/glowing-umbrella/refs/heads/main/revenant-source.lua"))()
 
 -- Create a window
 local mainWindow = Revenant:Window({
