@@ -1,8 +1,8 @@
-local Revenant = loadstring(game:HttpGet("https://raw.githubusercontent.com/randomquery16/glowing-umbrella/refs/heads/main/revenant-source.lua"))()
+local Revenant = loadstring(game:HttpGet("https://raw.githubusercontent.com/randomquery16/revenant-library/refs/heads/main/asset/revenant-source.lua"))()
 
 -- Create a window
 local mainWindow = Revenant:Window({
-    Text = "Example GUI"
+    Text = "Revenant Library Suite"
 })
 
 -- 1. Button with Notification
@@ -12,7 +12,7 @@ mainWindow:Button({
         Revenant:Notification({
             Text = "Hello, Revenant!",
             Duration = 3,
-            Color = Color3.fromRGB(0, 255, 0)
+            Color = Color3.fromRGB(255, 255, 255)
         })
     end
 })
