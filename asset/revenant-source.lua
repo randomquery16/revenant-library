@@ -518,7 +518,7 @@ local outerFrame = Instance.new("Frame")
 outerFrame.Name = "OuterFrame"
 outerFrame.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
 outerFrame.BorderSizePixel = 0
-outerFrame.Position = UDim2.fromScale(0.782, 0.263)
+outerFrame.Position = UDim2.fromScale(0.867, 0.263)
 outerFrame.Size = UDim2.fromOffset(17, 17)
 outerFrame.Parent = toggle
 
